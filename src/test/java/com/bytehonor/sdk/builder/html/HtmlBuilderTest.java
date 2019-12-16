@@ -51,7 +51,6 @@ public class HtmlBuilderTest {
                             + i)
                     .style(MdStyle.P);
             div.insert(p);
-            div.insert(HtmlBuilder.p().insert(HtmlBuilder.br()).style(MdStyle.P_BR_AFTER_P));
             div.insert(HtmlBuilder.h3().text("报道媒体").style(MdStyle.H3));
 
             Html pTitles = HtmlBuilder.p().style(
