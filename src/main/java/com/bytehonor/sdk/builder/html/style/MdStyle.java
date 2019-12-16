@@ -16,8 +16,10 @@ public class MdStyle {
     public static final String FONT_FAMILY = "font-family:-apple-system-font,BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB , Microsoft YaHei UI , Microsoft YaHei ,Arial,sans-serif;";
 
     public static final String H1 = "text-align:center;line-height:1.75;font-size:1.2em;font-weight:bold;display:table;margin:2em auto 1em;padding:0 1em;border-bottom:2px solid rgba(15, 76, 129, 0.9);margin-top: 0";
+    
+    public static final String H2_1 = "text-align:center;line-height:1.75;font-size:1.2em;font-weight:bold;display:table;margin:4em auto 1em;padding:0 1em;border-bottom:2px solid rgba(15, 76, 129, 0.9);";
 
-    public static final String H2 = "text-align:center;color:#fff;line-height:1.75;font-size:1.1em;font-weight:bold;display:table;margin:4em auto 2em;padding:0 0.2em;background:rgba(15, 76, 129, 0.9)";
+    public static final String H2_2 = "text-align:center;color:#fff;line-height:1.75;font-size:1.1em;font-weight:bold;display:table;margin:4em auto 2em;padding:0 0.2em;background:rgba(15, 76, 129, 0.9)";
 
     public static final String H3 = "line-height:1.2;font-size:1.1em;font-weight:bold;margin:2em 8px 0.75em 0;padding-left:8px;border-left:3px solid rgba(15, 76, 129, 0.9)";
 

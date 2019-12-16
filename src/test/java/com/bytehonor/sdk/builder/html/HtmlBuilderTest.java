@@ -36,7 +36,7 @@ public class HtmlBuilderTest {
 
         String jpg = "https://bytehonor.oss-cn-hangzhou.aliyuncs.com/up/topic/image/944921261094a650bede2cec814282ed.jpg";
         for (int i = 1; i < 25; i++) {
-            div.insert(HtmlBuilder.h2().text("权健公司及束昱辉等涉嫌组织领导传销活动案一审开庭择期宣判").style(MdStyle.H2));
+            div.insert(HtmlBuilder.h2().text("权健公司及束昱辉等涉嫌组织领导传销活动案一审开庭择期宣判").style(MdStyle.H2_1));
             Html rank = HtmlBuilder.strong().text(i).style(MdStyle.STRONG);
             Html hot = HtmlBuilder.strong().text("10.3亿").style(MdStyle.STRONG);
             Html total = HtmlBuilder.strong().text("67").style(MdStyle.STRONG);
