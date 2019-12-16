@@ -51,7 +51,7 @@ public class HtmlBuilderTest {
                             + i)
                     .style(MdStyle.P);
             div.insert(p);
-            div.insert(HtmlBuilder.p().style(MdStyle.P_BR_AFTER_P));
+            div.insert(HtmlBuilder.p().insert(HtmlBuilder.br()).style(MdStyle.P_BR_AFTER_P));
             div.insert(HtmlBuilder.h3().text("报道媒体").style(MdStyle.H3));
 
             Html pTitles = HtmlBuilder.p().style(
@@ -79,6 +79,13 @@ public class HtmlBuilderTest {
         html.insert(head);
         Html body = HtmlBuilder.body();
         body.insert(div);
+        // 免责声明
+        Html divDisclaimer = HtmlBuilder.div();
+        divDisclaimer.insert(HtmlBuilder.p().insert(HtmlBuilder.br()).style(MdStyle.P_BR_AFTER_P));
+        divDisclaimer.insert(HtmlBuilder.p().text("以上内容回复公众号可搜索新闻原文。若有侵犯您的权益，请您私信我们，我们将第一时间处理。版权保护，人人有责。")
+                .style(MdStyle.P + "color:orange;"));
+        divDisclaimer.insert(HtmlBuilder.p().insert(HtmlBuilder.br()).style(MdStyle.P_BR_AFTER_P));
+        body.insert(divDisclaimer);
         html.insert(body);
         String print = html.print();
         LOG.info("{}", print);
