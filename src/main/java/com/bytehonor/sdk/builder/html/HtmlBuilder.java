@@ -5,7 +5,7 @@ import java.util.Objects;
 import com.bytehonor.sdk.builder.html.tag.TagEnd;
 import com.bytehonor.sdk.builder.html.tag.TagNoEnd;
 
-public class HtmlTag {
+public class HtmlBuilder {
 
     public static TagEnd tagEnd(String name) {
         Objects.requireNonNull(name);
