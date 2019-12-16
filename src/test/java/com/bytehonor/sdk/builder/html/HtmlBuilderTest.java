@@ -17,7 +17,7 @@ public class HtmlBuilderTest {
         Html body = HtmlBuilder.body();
         body.insert(HtmlBuilder.h1().text("h1"));
         body.insert(HtmlBuilder.div().attr("id", "1")
-                .insert(HtmlBuilder.p().text("this ").insert(HtmlBuilder.span().text("red").attr("style", "color:red"))));
+                .insert(HtmlBuilder.p().text("this ").insert(HtmlBuilder.span().text("red").style("color:red"))));
         body.insert(HtmlBuilder.br());
         body.insert(HtmlBuilder.div().attr("id", "2").insert(
                 HtmlBuilder.p().text("this is text2 ").text("this is text21 ").text("this is text22").attr("style", "color:blue").attr("id", "xxx")));

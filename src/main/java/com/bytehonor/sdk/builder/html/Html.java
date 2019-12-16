@@ -27,6 +27,10 @@ public abstract class Html {
     public abstract String printEnd();
 
     public abstract Html attr(String key, String value);
+    
+    public Html style(String value) {
+        return this.attr("style", value);
+    };
 
     public abstract Html text(Object text);
 
