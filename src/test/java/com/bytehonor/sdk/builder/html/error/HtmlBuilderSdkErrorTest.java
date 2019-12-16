@@ -4,13 +4,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.bytehonor.sdk.builder.html.error.HtmlSdkException;
+import com.bytehonor.sdk.builder.html.error.HtmlBuilderSdkError;
 
-public class HtmlSdkExceptionTest {
+public class HtmlBuilderSdkErrorTest {
 
     @Test
     public void testGetCode() {
-        HtmlSdkException se = new HtmlSdkException("test");
+        HtmlBuilderSdkError se = new HtmlBuilderSdkError("test");
 
         assertTrue("testGetCode should return 'true'", "test".equals(se.getMessage()));
     }

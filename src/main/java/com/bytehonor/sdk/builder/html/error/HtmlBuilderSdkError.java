@@ -6,15 +6,15 @@ package com.bytehonor.sdk.builder.html.error;
  * @author lijianqiang
  *
  */
-public class HtmlSdkException extends RuntimeException {
+public class HtmlBuilderSdkError extends RuntimeException {
 
 	private static final long serialVersionUID = -183184291876365329L;
 
-	public HtmlSdkException() {
+	public HtmlBuilderSdkError() {
 		super();
 	}
 
-	public HtmlSdkException(String message) {
+	public HtmlBuilderSdkError(String message) {
 		super(message);
 	}
 }
