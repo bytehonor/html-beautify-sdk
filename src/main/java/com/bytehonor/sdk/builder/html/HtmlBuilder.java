@@ -44,7 +44,7 @@ public class HtmlBuilder {
     public static Html span() {
         return tagEnd("span");
     }
-    
+
     public static Html font() {
         return tagEnd("font");
     }
@@ -58,19 +58,17 @@ public class HtmlBuilder {
     }
 
     public static Html h2() {
-        return tagEnd("h2").attr("style",
-                "font-size: 1.5em; line-height: 1.225; color: #000000; padding-bottom: .3em; border-bottom: 1px solid #eee;");
+        return tagEnd("h2");
     }
 
     public static Html h3() {
-        return tagEnd("h3").attr("style",
-                "margin-top: 1em; margin-bottom: 16px; font-size: 1.25em; color: #343434; line-height: 1.43;");
+        return tagEnd("h3");
     }
 
     public static Html strong() {
         return tagEnd("strong");
     }
-    
+
     public static Html i() {
         return tagEnd("i"); // italic斜体
     }
@@ -84,12 +82,19 @@ public class HtmlBuilder {
     }
 
     public static Html blockquote() {
-        return tagEnd("blockquote").attr("style",
-                "color: #666; border-left: 4px solid #ddd; padding-left: 20px; margin-left: 0; font-size: 14px;");
+        return tagEnd("blockquote");
     }
-    
+
     public static Html small() {
         return tagEnd("small");
+    }
+
+    public static Html code() {
+        return tagEnd("code");
+    }
+
+    public static Html figure() {
+        return tagEnd("figure");
     }
 
     ///
@@ -104,7 +109,7 @@ public class HtmlBuilder {
     public static Html br() {
         return tagNoEnd("br");
     }
-    
+
     public static Html hr() {
         return tagNoEnd("hr");
     }
