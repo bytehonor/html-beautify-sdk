@@ -68,7 +68,7 @@ public class HtmlBuilderTest {
             for (int j = 0; j < 15; j++) {
                 blockquoteNames.text("人民日报" + j + "、");
             }
-            blockquoteNames.text("等75家媒体均有报道");
+            blockquoteNames.text("等").insert(HtmlBuilder.code().text(75).style(MdStyle.CODE)).text("家媒体均有报道");
             blockquote.insert(blockquoteNames);
             div.insert(blockquote);
         }
