@@ -6,6 +6,8 @@ import com.bytehonor.sdk.builder.html.tag.TagEnd;
 import com.bytehonor.sdk.builder.html.tag.TagNoEnd;
 
 public class HtmlBuilder {
+    
+    public static final String DOCTYPE = "<!DOCTYPE html>";
 
     public static TagEnd tagEnd(String name) {
         Objects.requireNonNull(name);
