@@ -25,6 +25,22 @@ public class HtmlBuilder {
         return tagEnd("head");
     }
 
+    public static Html meta() {
+        return tagEnd("meta");
+    }
+
+    public static Html link() {
+        return tagEnd("link");
+    }
+
+    public static Html script() {
+        return tagEnd("script");
+    }
+
+    public static Html style() {
+        return tagEnd("style");
+    }
+
     public static Html title() {
         return tagEnd("title");
     }
