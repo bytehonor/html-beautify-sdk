@@ -26,11 +26,11 @@ public class HtmlBuilder {
     }
 
     public static Html meta() {
-        return tagEnd("meta");
+        return tagNoEnd("meta");
     }
 
     public static Html link() {
-        return tagEnd("link");
+        return tagNoEnd("link");
     }
 
     public static Html script() {
