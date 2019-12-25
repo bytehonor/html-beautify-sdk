@@ -1,5 +1,7 @@
 package com.bytehonor.sdk.builder.html.tag;
 
+import org.springframework.util.StringUtils;
+
 import com.bytehonor.sdk.builder.html.Html;
 import com.bytehonor.sdk.builder.html.attribute.AttributeUtils;
 import com.bytehonor.sdk.builder.html.string.StringSdkUtils;
@@ -37,7 +39,9 @@ public class TagNoEnd extends Html {
 
     @Override
     public Html attr(String key, String value) {
-        this.attributes.put(key, value);
+        if (StringUtils.isEmpty(key) == false) {
+            this.attributes.put(key, value);
+        }
         return this;
     }
 
