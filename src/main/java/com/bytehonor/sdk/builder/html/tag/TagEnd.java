@@ -68,9 +68,9 @@ public class TagEnd extends Html {
     @Override
     public String printEnd() {
         StringBuilder sb = new StringBuilder();
-        if (NEW_LINE_TAGS.contains(name)) {
-            sb.append("\r\n");
-        }
+//        if (NEW_LINE_TAGS.contains(name)) {
+//            sb.append("\r\n");
+//        }
         return sb.append("</").append(name).append(">").toString();
     }
 
@@ -87,61 +87,6 @@ public class TagEnd extends Html {
         tags.add(new TagText(String.valueOf(val)));
         return this;
     }
-
-//    public TagEndYes html() {
-//        tags.add(new TagEndYes("html"));
-//        return this;
-//    }
-//
-//    public TagEndYes head() {
-//        tags.add(new TagEndYes("head"));
-//        return this;
-//    }
-//
-//    public TagEndYes title() {
-//        tags.add(new TagEndYes("title"));
-//        return this;
-//    }
-//
-//    public TagEndYes body() {
-//        tags.add(new TagEndYes("body"));
-//        return this;
-//    }
-//
-//    public TagEndYes div() {
-//        tags.add(new TagEndYes("div"));
-//        return this;
-//    }
-//
-//    public TagEndYes p() {
-//        tags.add(new TagEndYes("p"));
-//        return this;
-//    }
-//
-//    public TagEndYes a() {
-//        tags.add(new TagEndYes("a"));
-//        return this;
-//    }
-//
-//    public TagEndYes h1() {
-//        tags.add(new TagEndYes("1"));
-//        return this;
-//    }
-//
-//    public TagEndYes h2() {
-//        tags.add(new TagEndYes("h2"));
-//        return this;
-//    }
-//
-//    public TagEndYes h3() {
-//        tags.add(new TagEndYes("h3"));
-//        return this;
-//    }
-//
-//    public TagEndYes font() {
-//        tags.add(new TagEndYes("font"));
-//        return this;
-//    }
 
     public List<Html> getTags() {
         return tags;
