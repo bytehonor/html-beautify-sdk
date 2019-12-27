@@ -50,9 +50,9 @@ public class TagEnd extends Html {
     public String printBegin() {
         StringBuilder sb = new StringBuilder();
         sb.append("<").append(name).append(AttributeUtils.print(attributes)).append(">").toString();
-        if (NEW_LINE_TAGS.contains(name)) {
-            sb.append("\r\n");
-        }
+//        if (NEW_LINE_TAGS.contains(name)) {
+//            sb.append("\r\n");
+//        }
         return sb.toString();
     }
 
