@@ -28,6 +28,10 @@ public abstract class Html {
 
     public abstract Html attr(String key, String value);
     
+    public Html css(String value) {
+        return this.attr("class", value);
+    };
+    
     public Html style(String value) {
         return this.attr("style", value);
     };
