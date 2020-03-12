@@ -34,7 +34,7 @@ public class MdClass {
     
     public static final String BLOCKQUOTE_P_NORMAL = "news-md-blockquote-p-normal";
     
-    public static final String BLOCKQUOTE_P_SAMLL = "news-md-blockquote-p-small";
+    public static final String BLOCKQUOTE_P_SMALL = "news-md-blockquote-p-small";
     
     public static final String BR_AFTER_P = "news-md-br-after-p";
 
