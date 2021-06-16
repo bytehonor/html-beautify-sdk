@@ -5,9 +5,9 @@ plugins {
 apply from: 'repository.gradle'
 
 group = 'com.bytehonor.sdk'
-version = '0.2.0'
+version = '0.3.0'
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
+
 [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
 
 configurations {
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation('org.springframework:spring-core:5.2.1.RELEASE')
+    implementation('org.springframework:spring-core:5.3.5')
     implementation('org.slf4j:slf4j-api:1.7.29')
     testImplementation('ch.qos.logback:logback-classic:1.2.3')
     testImplementation('junit:junit:4.12')
