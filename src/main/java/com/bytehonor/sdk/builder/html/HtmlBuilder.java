@@ -5,6 +5,10 @@ import java.util.Objects;
 import com.bytehonor.sdk.builder.html.tag.TagEnd;
 import com.bytehonor.sdk.builder.html.tag.TagNoEnd;
 
+/**
+ * @author lijianqiang
+ *
+ */
 public class HtmlBuilder {
     
     public static final String DOCTYPE = "<!DOCTYPE html>";

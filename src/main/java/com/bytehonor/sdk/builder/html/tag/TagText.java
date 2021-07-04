@@ -2,6 +2,10 @@ package com.bytehonor.sdk.builder.html.tag;
 
 import com.bytehonor.sdk.builder.html.Html;
 
+/**
+ * @author lijianqiang
+ *
+ */
 public class TagText extends Html {
 
     private String val;

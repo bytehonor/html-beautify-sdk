@@ -5,11 +5,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.springframework.util.StringUtils;
-
 import com.bytehonor.sdk.builder.html.Html;
 import com.bytehonor.sdk.builder.html.attribute.AttributeUtils;
 
+/**
+ * @author lijianqiang
+ *
+ */
 public class TagEnd extends Html {
 
     private static final Set<String> NEW_LINE_TAGS;
@@ -76,7 +78,7 @@ public class TagEnd extends Html {
 
     @Override
     public Html attr(String key, String value) {
-        if (StringUtils.isEmpty(key) == false) {
+        if (key != null && !key.isEmpty()) {
             this.attributes.put(key, value);
         }
         return this;

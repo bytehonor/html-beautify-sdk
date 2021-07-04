@@ -5,6 +5,10 @@ import java.util.Map;
 
 import com.bytehonor.sdk.builder.html.string.StringHolder;
 
+/**
+ * @author lijianqiang
+ *
+ */
 public abstract class Html {
 
     protected String name;

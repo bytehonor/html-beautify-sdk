@@ -1,5 +1,9 @@
 package com.bytehonor.sdk.builder.html.string;
 
+/**
+ * @author lijianqiang
+ *
+ */
 public final class StringHolder {
 
     private StringBuilder sb;
