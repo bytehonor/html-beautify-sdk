@@ -1,8 +1,8 @@
-package com.bytehonor.sdk.builder.html.tag;
+package com.bytehonor.sdk.beautify.html.tag;
 
-import com.bytehonor.sdk.builder.html.Html;
-import com.bytehonor.sdk.builder.html.attribute.AttributeUtils;
-import com.bytehonor.sdk.builder.html.string.StringSdkUtils;
+import com.bytehonor.sdk.beautify.html.Html;
+import com.bytehonor.sdk.beautify.html.attribute.AttributeUtils;
+import com.bytehonor.sdk.beautify.html.string.HtmlSdkUtils;
 
 /**
  * @author lijianqiang
@@ -23,7 +23,7 @@ public class TagNoEnd extends Html {
         String attr = AttributeUtils.print(attributes);
         StringBuilder sb = new StringBuilder();
         sb.append("<").append(name);
-        if (StringSdkUtils.isEmpty(attr) == false) {
+        if (HtmlSdkUtils.isEmpty(attr) == false) {
             sb.append(attr);
         }
         return sb.toString();

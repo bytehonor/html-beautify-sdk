@@ -1,9 +1,9 @@
-package com.bytehonor.sdk.builder.html;
+package com.bytehonor.sdk.beautify.html;
 
 import java.util.Objects;
 
-import com.bytehonor.sdk.builder.html.tag.TagEnd;
-import com.bytehonor.sdk.builder.html.tag.TagNoEnd;
+import com.bytehonor.sdk.beautify.html.tag.TagEnd;
+import com.bytehonor.sdk.beautify.html.tag.TagNoEnd;
 
 /**
  * @author lijianqiang

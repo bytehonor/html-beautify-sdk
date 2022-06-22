@@ -1,9 +1,9 @@
-package com.bytehonor.sdk.builder.html.attribute;
+package com.bytehonor.sdk.beautify.html.attribute;
 
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.bytehonor.sdk.builder.html.string.StringSdkUtils;
+import com.bytehonor.sdk.beautify.html.string.HtmlSdkUtils;
 
 public class AttributeUtils {
 
@@ -21,7 +21,7 @@ public class AttributeUtils {
         }
         StringBuilder sb = new StringBuilder();
         for (Entry<String, String> attr : attributes.entrySet()) {
-            if (StringSdkUtils.isEmpty(attr.getKey()) || StringSdkUtils.isEmpty(attr.getValue())) {
+            if (HtmlSdkUtils.isEmpty(attr.getKey()) || HtmlSdkUtils.isEmpty(attr.getValue())) {
                 continue;
             }
             sb.append(" ").append(attr.getKey()).append("=\"").append(format(attr)).append("\"");

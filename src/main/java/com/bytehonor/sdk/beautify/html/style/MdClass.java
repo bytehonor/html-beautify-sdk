@@ -1,4 +1,4 @@
-package com.bytehonor.sdk.builder.html.style;
+package com.bytehonor.sdk.beautify.html.style;
 
 /**
  * https://m.bytehonor.com/res/css/news-md-style.css

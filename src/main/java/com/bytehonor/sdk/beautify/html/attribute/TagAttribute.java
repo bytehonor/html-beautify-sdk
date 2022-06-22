@@ -1,4 +1,4 @@
-package com.bytehonor.sdk.builder.html.attribute;
+package com.bytehonor.sdk.beautify.html.attribute;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
-package com.bytehonor.sdk.builder.html.tag;
+package com.bytehonor.sdk.beautify.html.tag;
 
-import com.bytehonor.sdk.builder.html.Html;
+import com.bytehonor.sdk.beautify.html.Html;
 
 /**
  * @author lijianqiang

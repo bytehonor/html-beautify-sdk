@@ -1,9 +1,9 @@
-package com.bytehonor.sdk.builder.html;
+package com.bytehonor.sdk.beautify.html;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.bytehonor.sdk.builder.html.string.StringHolder;
+import com.bytehonor.sdk.beautify.html.string.StringHolder;
 
 /**
  * @author lijianqiang

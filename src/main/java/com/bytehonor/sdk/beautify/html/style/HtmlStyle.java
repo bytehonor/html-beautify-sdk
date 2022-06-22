@@ -1,4 +1,4 @@
-package com.bytehonor.sdk.builder.html.style;
+package com.bytehonor.sdk.beautify.html.style;
 
 public class HtmlStyle {
 

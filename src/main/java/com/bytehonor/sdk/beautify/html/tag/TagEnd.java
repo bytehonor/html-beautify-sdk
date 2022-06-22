@@ -1,12 +1,12 @@
-package com.bytehonor.sdk.builder.html.tag;
+package com.bytehonor.sdk.beautify.html.tag;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.bytehonor.sdk.builder.html.Html;
-import com.bytehonor.sdk.builder.html.attribute.AttributeUtils;
+import com.bytehonor.sdk.beautify.html.Html;
+import com.bytehonor.sdk.beautify.html.attribute.AttributeUtils;
 
 /**
  * @author lijianqiang

@@ -1,10 +1,10 @@
-package com.bytehonor.sdk.builder.html.string;
+package com.bytehonor.sdk.beautify.html.string;
 
 /**
  * @author lijianqiang
  *
  */
-public class StringSdkUtils {
+public class HtmlSdkUtils {
 
     public static boolean isEmpty(Object str) {
         return (str == null || "".equals(str));

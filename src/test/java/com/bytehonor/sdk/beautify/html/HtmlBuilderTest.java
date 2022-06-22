@@ -1,10 +1,10 @@
-package com.bytehonor.sdk.builder.html;
+package com.bytehonor.sdk.beautify.html;
 
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.bytehonor.sdk.builder.html.style.MdStyle;
+import com.bytehonor.sdk.beautify.html.style.MdStyle;
 
 public class HtmlBuilderTest {
 

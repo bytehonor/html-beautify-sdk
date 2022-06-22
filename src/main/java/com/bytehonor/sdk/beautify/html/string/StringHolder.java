@@ -1,4 +1,4 @@
-package com.bytehonor.sdk.builder.html.string;
+package com.bytehonor.sdk.beautify.html.string;
 
 /**
  * @author lijianqiang
