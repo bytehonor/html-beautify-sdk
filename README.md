@@ -1,2 +1,2 @@
-# html-builder-sdk
-html-builder-sdk
+# html-beautify-sdk
+html-beautify-sdk
