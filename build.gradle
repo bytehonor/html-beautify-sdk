@@ -1,8 +1,7 @@
 plugins {
     id 'java-library'
+    id 'maven-publish'
 }
-
-apply from: 'repository.gradle'
 
 group = 'com.bytehonor.sdk'
 version = '1.2.0'
@@ -33,3 +32,25 @@ jar {
                    'Implementation-Version': project.version)
     }
 }
+
+java {
+    withSourcesJar()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url = "https://maven.huajietaojin.cn/repository/bytehonor/"
+            credentials {
+                username 'bytehonor'
+                password 'permit'
+            }
+        }
+    }
+}
+
